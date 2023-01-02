@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <Title>Favourite Food</Title>    
+        <style>
+            html{
+                scroll-behavior: smooth;
+            }
+            .header{
+                background-color: cadetblue;
+                color: aqua;
+                padding: 4px;
+                
+            }
+            .Menu{
+                color: black;
+                font-size: 25px;
+                padding: 10px;
+                font-weight: bolder;
+                text-decoration: none;
+            }
+            .menu:hover{
+                background-color: darkgoldenrod;
+                border-radius: 2px;
+            }
+            body{
+                background-color: aquamarine;
+                margin: 0px;
+            }
+            #Pasta{
+                width: 500px;
+                height: 400px;
+                margin: auto;
+            }
+            #Roll{
+                width: 500px;
+                height: 400px;
+                margin: auto;
+            }
+            #Cake{
+                width: 500px;
+                height: 400px;
+                margin: auto;
+            }
+            #Pizza{
+                width: 500px;
+                height: 400px;
+                margin: auto;
+            }
+            #Soup{
+                
+                width: 500px;
+                height: 400px;
+                margin: auto;
+            }
+               .text-center{
+                text-align: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+
+        <div class="head">
+            <div class="header">
+                <a href="" class="Menu"><span >Index</span></a>
+                <a href="" class="Menu"><span >Food</span></a>
+                <a href="" class="Menu"><span >About</span></a>
+            </div>
+        </div>
+        <h1>Top 5 Favourite Food</h1>
+        <ul >
+            <li><a href="#Pasta" class="one">Pasta</a></li>
+            <li><a href="#Roll" class="one">Roll</a></li>
+            <li><a href="#Cake" class="one">Cake</a></li>
+            <li><a href="#Pizza" class="one">Pizza</a></li>
+            <li><a href="#Soup" class="one">Soup</a></li>
+        </ul>
+        <div class="text-center"> <img src="https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19739.jpg?size=626&ext=jpg&ga=GA1.2.1663175199.1654672896" alt="Pasta Image" id="Pasta">
+
+            <p>Pasta</p>
+        </div>
+
+        <div class="text-center"> <img src="https://img.freepik.com/free-photo/side-view-doner-with-grilled-chicken-greens-lettuce-tomato-french-fries-table_141793-4881.jpg?size=626&ext=jpg&ga=GA1.2.1663175199.1654672896" alt="Roll Image" id="Roll">
+            <p>Roll</p>
+        </div>
+
+        <div class="text-center"> <img src="https://img.freepik.com/free-photo/cake-with-white-cream-chocolate-drips-pomegranate-nuts-chocolate-decor_199620-5923.jpg?size=626&ext=jpg&ga=GA1.2.1663175199.1654672896" alt="Cake Image" id="Cake">
+            <p>Cake</p>
+        </div>
+
+        <div class="text-center"> <img src="https://img.freepik.com/free-photo/whole-italian-pizza-wooden-table-with-ingredients_251318-13.jpg?size=626&ext=jpg&ga=GA1.2.1663175199.1654672896" alt="Pizza Image" id="Pizza">
+            <p>Pizza</p>
+        </div>
+
+        <div class="text-center"> <img src="https://img.freepik.com/free-photo/lentil-soup-with-mixed-ingredients-herbs-white-bowl-with-spoon_114579-3083.jpg?size=626&ext=jpg&ga=GA1.2.1663175199.1654672896" alt="Soup Image" id="Soup">
+            <p>Soup</p>
+        </div>
+
+
+    </body>
+</html>
